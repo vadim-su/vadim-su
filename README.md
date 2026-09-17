@@ -3,8 +3,6 @@
   <img src="banner-light.svg" alt="Vadim Suharnikov — python, rust, backends, automation" width="100%">
 </picture>
 
-# Vadim Suharnikov
-
 Backend and tooling engineer — **Python** and **Rust**. APIs, search, automation,
 and the occasional language tool. Yerevan, Armenia.
 
@@ -24,6 +22,8 @@ _Updated: September 2026_
 - **Desktop tinkering** — [`omarchy-linear-widget`](https://github.com/vadim-su/omarchy-linear-widget):
   a QML bar widget that pulls Linear issues into Omarchy/Hyprland and opens the matching
   git worktree.
+- **Unreleased** — a few things I build for myself in the background. They land here
+  once they stop being embarrassing.
 
 ## Projects
 
