@@ -1,14 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="320" viewBox="0 0 1280 320" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <title>Vadim Suharnikov — python and rust</title>
   <desc>Backend and tooling engineer. Python, Rust, backends, automation. Yerevan, Armenia. An abstract tree branches across three levels on the right.</desc>
+  <style>
+    .edge { stroke-dasharray: 420; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: no-preference) {
+      .edge { stroke-dashoffset: 420; animation: draw 0.8s ease-out both; }
+      .l2 { animation-delay: 0.42s; }
+      .cursor { animation: blink 1.06s steps(1) infinite; }
+    }
+  </style>
   <rect width="1280" height="320" fill="#0d1117"/>
   <text x="80" y="144" fill="#e6edf3" font-size="46" font-weight="600" letter-spacing="-1">Vadim Suharnikov</text>
   <text x="82" y="185" fill="#e6edf3" font-size="17">python · rust · backends · automation</text>
+  <rect class="cursor" x="466" y="172" width="9" height="17" fill="#e6edf3" fill-opacity="0.75"/>
   <text x="82" y="222" fill="#8b949e" font-size="14">Yerevan, Armenia</text>
   <g fill="none" stroke="#58a6ff" stroke-width="1.25" stroke-linecap="round" stroke-opacity="0.42">
-    <path d="M1014 108 L905 151 M1030 108 L1117 138"/>
-    <path d="M897 169 L841 217 M905 169 L926 232 M915 169 L997 205"/>
-    <path d="M1109 158 L1110 218 M1126 158 L1189 202"/>
+    <path class="edge" d="M1014 108 L905 151 M1030 108 L1117 138"/>
+    <path class="edge l2" d="M897 169 L841 217 M905 169 L926 232 M915 169 L997 205"/>
+    <path class="edge l2" d="M1109 158 L1110 218 M1126 158 L1189 202"/>
   </g>
   <g stroke-width="1.25">
     <g fill="#f74c00" fill-opacity="0.10" stroke="#f74c00" stroke-opacity="0.85">
