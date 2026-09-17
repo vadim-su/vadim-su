@@ -22,8 +22,9 @@ _Updated: September 2026_
 - **Desktop tinkering** — [`omarchy-linear-widget`](https://github.com/vadim-su/omarchy-linear-widget):
   a QML bar widget that pulls Linear issues into Omarchy/Hyprland and opens the matching
   git worktree.
-- **Unreleased** — a few things I build for myself in the background. They land here
-  once they stop being embarrassing.
+- **Unreleased** — a few things I build for myself in the background: developer tooling
+  and CLIs, plus search over my own documents. Rust where it has to be fast, Python
+  where it has to be flexible. They land here once they stop being embarrassing.
 
 ## Projects
 
