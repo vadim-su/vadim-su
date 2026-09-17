@@ -2,12 +2,18 @@
   <title>Vadim Suharnikov — python and rust</title>
   <desc>Banner with the name Vadim Suharnikov above the line python, rust, backends, automation, and the location Yerevan, Armenia. An abstract tree branches across three levels on the right.</desc>
   <style>
-    .edge { stroke-dasharray: 420; }
-    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes flow { from { stroke-dashoffset: 190; } to { stroke-dashoffset: -90; } }
+    @keyframes pulse { 0%, 62% { opacity: 0.62; } 16% { opacity: 1; } }
     @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+    .flow { opacity: 0; }
     @media (prefers-reduced-motion: no-preference) {
-      .edge { stroke-dashoffset: 420; animation: draw 0.8s ease-out both; }
-      .l2 { animation-delay: 0.42s; }
+      .flow { opacity: 1; stroke-dasharray: 34 240; animation: flow 2.6s linear infinite; }
+      .f1 { animation-delay: 0.55s; }
+      .f2 { animation-delay: 1.1s; }
+      .node { animation: pulse 3.6s ease-in-out infinite; }
+      .d1 { animation-delay: 0.3s; }
+      .d2 { animation-delay: 0.6s; }
+      .d3 { animation-delay: 0.9s; }
       .cursor { animation: blink 1.06s steps(1) infinite; }
     }
   </style>
@@ -16,27 +22,50 @@
   <text x="82" y="185" fill="#1f2328" font-size="17">python · rust · backends · automation</text>
   <rect class="cursor" x="466" y="172" width="9" height="17" fill="#1f2328" fill-opacity="0.75"/>
   <text x="82" y="222" fill="#59636e" font-size="14">Yerevan, Armenia</text>
-  <g fill="none" stroke="#0969da" stroke-width="1.25" stroke-linecap="round" stroke-opacity="0.36">
-    <path class="edge" d="M1014 108 L905 151 M1030 108 L1117 138"/>
-    <path class="edge l2" d="M897 169 L841 217 M905 169 L926 232 M915 169 L997 205"/>
-    <path class="edge l2" d="M1109 158 L1110 218 M1126 158 L1189 202"/>
+  <g fill="none" stroke="#0969da" stroke-width="2.8" stroke-linecap="round" stroke-opacity="0.5">
+    <path d="M750 160 L866 78 M750 160 L866 160 M750 160 L866 242"/>
+    <path d="M914 78 L1042 50 M914 78 L1042 112 M914 160 L1042 168 M914 242 L1042 212 M914 242 L1042 268"/>
+    <path d="M1078 50 L1199 36 M1078 112 L1195 118 M1078 168 L1203 168 M1078 268 L1191 268"/>
   </g>
-  <g stroke-width="1.25">
-    <g fill="#d43900" fill-opacity="0.06" stroke="#d43900" stroke-opacity="0.85">
-      <rect x="995" y="86" width="54" height="22" rx="5"/>
-      <rect x="910" y="232" width="32" height="16" rx="4"/>
-      <rect x="1174" y="202" width="30" height="16" rx="4"/>
-    </g>
-    <g fill="#0969da" fill-opacity="0.04" stroke="#0969da" stroke-opacity="0.65">
-      <rect x="884" y="151" width="42" height="18" rx="4"/>
-      <rect x="1088" y="138" width="58" height="20" rx="5"/>
-      <rect x="826" y="217" width="30" height="16" rx="4"/>
-      <rect x="984" y="205" width="26" height="16" rx="4"/>
-      <rect x="1091" y="218" width="38" height="16" rx="4"/>
-    </g>
+  <g fill="none" stroke="#0969da" stroke-width="3" stroke-linecap="round" stroke-opacity="0.95">
+    <path class="flow" d="M750 160 L866 78 M750 160 L866 160 M750 160 L866 242"/>
+    <path class="flow f1" d="M914 78 L1042 50 M914 78 L1042 112 M914 160 L1042 168 M914 242 L1042 212 M914 242 L1042 268"/>
+    <path class="flow f2" d="M1078 50 L1199 36 M1078 112 L1195 118 M1078 168 L1203 168 M1078 268 L1191 268"/>
   </g>
-  <g fill="none" stroke-width="2" stroke-linecap="round">
-    <path d="M1009 97 H1035 M921 240 H931 M1185 210 H1193" stroke="#d43900" stroke-opacity="0.8"/>
-    <path d="M896 160 H914 M1102 148 H1113 M1120 148 H1132 M837 225 H845 M994 213 H1000 M1103 226 H1117" stroke="#0969da" stroke-opacity="0.65"/>
+  <g fill="none" stroke-width="2.6" stroke-linecap="round">
+    <g class="node">
+      <rect x="688" y="146" width="64" height="28" rx="7" fill="#d43900" fill-opacity="0.09" stroke="#d43900"/>
+      <path d="M700 160 H740" stroke="#d43900" stroke-width="3.2"/>
+    </g>
+    <g class="node d1">
+      <g fill="#0969da" fill-opacity="0.07" stroke="#0969da">
+        <rect x="866" y="67" width="48" height="22" rx="6"/>
+        <rect x="866" y="149" width="48" height="22" rx="6"/>
+        <rect x="866" y="231" width="48" height="22" rx="6"/>
+      </g>
+      <path d="M878 78 H902 M878 160 H902 M878 242 H902" stroke="#0969da" stroke-width="3.2"/>
+    </g>
+    <g class="node d2">
+      <g fill="#0969da" fill-opacity="0.07" stroke="#0969da">
+        <rect x="1042" y="41" width="36" height="18" rx="5"/>
+        <rect x="1042" y="159" width="36" height="18" rx="5"/>
+        <rect x="1042" y="203" width="36" height="18" rx="5"/>
+      </g>
+      <g fill="#d43900" fill-opacity="0.09" stroke="#d43900">
+        <rect x="1042" y="103" width="36" height="18" rx="5"/>
+        <rect x="1042" y="259" width="36" height="18" rx="5"/>
+      </g>
+      <path d="M1050 50 H1070 M1050 168 H1070 M1050 212 H1070" stroke="#0969da" stroke-width="3.2"/>
+      <path d="M1050 112 H1070 M1050 268 H1070" stroke="#d43900" stroke-width="3.2"/>
+    </g>
+    <g class="node d3">
+      <g fill="#0969da" fill-opacity="0.07" stroke="#0969da">
+        <rect x="1199" y="29" width="26" height="14" rx="4"/>
+        <rect x="1195" y="111" width="26" height="14" rx="4"/>
+        <rect x="1203" y="161" width="26" height="14" rx="4"/>
+        <rect x="1191" y="261" width="26" height="14" rx="4"/>
+      </g>
+      <path d="M1206 36 H1218 M1202 118 H1214 M1210 168 H1222 M1198 268 H1210" stroke="#0969da" stroke-width="2.6"/>
+    </g>
   </g>
 </svg>
