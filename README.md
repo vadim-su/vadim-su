@@ -38,7 +38,7 @@ _Updated: September 2026_
 
 ## Tech
 
-- **Languages:** Python · Rust · Go · C
+- **Languages:** Python · Go · Rust
 - **Around them:** FastAPI, Postgres, Elasticsearch, Docker, QML/Quickshell
 - **Interests:** APIs, search, automation, agent runtimes
 
