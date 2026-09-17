@@ -3,28 +3,29 @@
   <img src="banner-light.svg" alt="Vadim Suharnikov — python, rust, backends, automation" width="100%">
 </picture>
 
-Backend and tooling engineer — **Python** and **Rust**. APIs, search, automation,
-and the occasional language tool. Yerevan, Armenia.
+Backend and tooling engineer in Yerevan, Armenia. Python is my first choice.
+Rust when something has to be fast.
 
 ## Now
 
 _Updated: September 2026_
 
-- **Python** — [`asyncord`](https://github.com/vadim-su/asyncord), an async Discord API
-  library, and [`fbenum`](https://github.com/vadim-su/fbenum), pydantic-compatible
-  fallback enums. FastAPI and Postgres are still my default way to ship a service.
-- **Search and document pipelines** — indexing heterogeneous documents (PDF, Word)
-  and making them actually findable.
-- **Rust** — small sharp tools: [`rust_cv`](https://github.com/vadim-su/rust_cv), plus
-  language-tooling side quests when a language I like has no editor support yet.
-- **AI coding agents** — running MCP-native agent runtimes daily, filing issues and
-  patches upstream instead of building another wrapper.
-- **Desktop tinkering** — [`omarchy-linear-widget`](https://github.com/vadim-su/omarchy-linear-widget):
-  a QML bar widget that pulls Linear issues into Omarchy/Hyprland and opens the matching
-  git worktree.
-- **Unreleased** — a few things I build for myself in the background: developer tooling
-  and CLIs, plus search over my own documents. Rust where it has to be fast, Python
-  where it has to be flexible. They land here once they stop being embarrassing.
+- Python gets most of my time:
+  [`asyncord`](https://github.com/vadim-su/asyncord), an async Discord API library,
+  and [`fbenum`](https://github.com/vadim-su/fbenum), pydantic-compatible fallback
+  enums. FastAPI over Postgres is still how I ship a service.
+- Search over messy documents. PDFs and Word files that nobody planned for, indexed
+  so they can be found.
+- Rust for the small sharp things, like [`rust_cv`](https://github.com/vadim-su/rust_cv),
+  and for editor tooling when a language I use has none.
+- I run MCP-native agent runtimes every day. Issues and patches go upstream rather
+  than into another wrapper of my own.
+- [`omarchy-linear-widget`](https://github.com/vadim-su/omarchy-linear-widget) is a QML
+  bar widget: it pulls my Linear issues into Omarchy and opens the git worktree that
+  belongs to the ticket.
+- Unreleased, for now: developer tooling, a couple of CLIs, and search over my own
+  documents, written in Rust and Python. They show up here once they stop being
+  embarrassing.
 
 ## Projects
 
