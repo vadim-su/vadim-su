@@ -1,34 +1,52 @@
-# 👋 Hi, I'm Vadim!
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
+  <img src="banner-light.svg" alt="Vadim Suharnikov — python, rust, backends, automation" width="100%">
+</picture>
 
-🚀 **Senior Software Developer**
+# Vadim Suharnikov
 
-I enjoy creating efficient and innovative solutions to challenging problems. My work spans a wide range of interests, from **server automation** to **document search systems** and **Discord bots**.
+Backend and tooling engineer — **Python** and **Rust**. APIs, search, automation,
+and the occasional language tool. Yerevan, Armenia.
 
-## 🛠 What I’m Working On:
-- 🌐 Building a **document analysis and search system** leveraging SurrealDB and Elasticsearch.
-- 🔌 Maintaining **asyncord**, my Python Discord library – check it out [here](https://asyncord.dev).
-- 🧠 Diving into **AI-driven search** for heterogeneous documents like PDFs and Word files.
-- 🖥️ Developing a **game engine** and exploring the intricacies of animations.
-- 🔒 Setting up secure systems with tools like **WireGuard VPN** and **Ansible scripts**.
+## Now
 
-## 📚 What I’ve Done (recently):
-- Designed a **site** with advanced search features and a sleek UX using React and FastAPI.
-- AI Document Search service to extract and smart index data from PDFs and Word files.
-- Created a **3D interactive web prototype** for a toy-cube project.
-- Automated **server setup** and **monitoring** with Ansible and Logfire.
+_Updated: September 2026_
 
-## 🧑‍💻 Tech Stack:
-- **Languages**: Python, Go, Rust
-- **Frameworks & Libraries**: FastAPI, Flask, React, Asyncord
-- **Tools**: Postgres, Elasticsearch, SurrealDB, Kibana, Docker
-- **Specialties**: Systems design, Search, AI and automation
+- **Python** — [`asyncord`](https://github.com/vadim-su/asyncord), an async Discord API
+  library, and [`fbenum`](https://github.com/vadim-su/fbenum), pydantic-compatible
+  fallback enums. FastAPI and Postgres are still my default way to ship a service.
+- **Search and document pipelines** — indexing heterogeneous documents (PDF, Word)
+  and making them actually findable.
+- **Rust** — small sharp tools: [`rust_cv`](https://github.com/vadim-su/rust_cv), plus
+  language-tooling side quests when a language I like has no editor support yet.
+- **AI coding agents** — running MCP-native agent runtimes daily, filing issues and
+  patches upstream instead of building another wrapper.
+- **Desktop tinkering** — [`omarchy-linear-widget`](https://github.com/vadim-su/omarchy-linear-widget):
+  a QML bar widget that pulls Linear issues into Omarchy/Hyprland and opens the matching
+  git worktree.
 
-## 🎮 Fun Facts:
-- I have a passion for **keyboards**, **modding**, and **game development**.
-- I’m exploring **Armenian** as a new language.
-- I previously managed a vibrant Discord community and love fostering collaboration.
+## Projects
 
-## 📫 Connect with Me:
-- GitHub: [github.com/vadim-su](https://github.com/vadim-su)
-- Website: [vadim.one](https://vadim.one)
-- LinkedIn: [linkedin.com/in/vadim-su](https://linkedin.com/in/vadim-su)
+| Project | What it is | Status |
+| --- | --- | --- |
+| [`asyncord`](https://github.com/vadim-su/asyncord) | Async Discord API library for Python | maintenance mode, contributors welcome |
+| [`fbenum`](https://github.com/vadim-su/fbenum) | Fallback enums for Python, pydantic-compatible | stable |
+| [`rust_cv`](https://github.com/vadim-su/rust_cv) | My CV as a Rust web app | side project |
+| [`omarchy-linear-widget`](https://github.com/vadim-su/omarchy-linear-widget) | Linear issues in the Omarchy bar (QML), worktree-aware | active |
+| [`zed_mojo`](https://github.com/vadim-su/zed_mojo) / [`tree-sitter-mojo`](https://github.com/vadim-su/tree-sitter-mojo) | Editor support for the Mojo language | active |
+| [`ferron_zed`](https://github.com/vadim-su/ferron_zed) / [`ferron_tree_sitter`](https://github.com/vadim-su/ferron_tree_sitter) | Same idea, for Ferron | active |
+
+## Tech
+
+- **Languages:** Python · Rust · Go · C
+- **Around them:** FastAPI, Postgres, Elasticsearch, Docker, QML/Quickshell
+- **Interests:** APIs, search, automation, agent runtimes
+
+## Setup
+
+Omarchy (Arch + Hyprland) · Zed · a bar I keep modifying · far too many keyboards.
+
+## Elsewhere
+
+- GitHub: [@vadim-su](https://github.com/vadim-su)
+- LinkedIn: [vadim-su](https://linkedin.com/in/vadim-su)

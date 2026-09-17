@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="320" viewBox="0 0 1280 320" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <title>Vadim Suharnikov — python and rust</title>
+  <desc>Backend and tooling engineer. Python, Rust, backends, automation. Yerevan, Armenia. An abstract tree branches across three levels on the right.</desc>
+  <rect width="1280" height="320" fill="#0d1117"/>
+  <text x="80" y="144" fill="#e6edf3" font-size="46" font-weight="600" letter-spacing="-1">Vadim Suharnikov</text>
+  <text x="82" y="185" fill="#e6edf3" font-size="17">python · rust · backends · automation</text>
+  <text x="82" y="222" fill="#8b949e" font-size="14">Yerevan, Armenia</text>
+  <g fill="none" stroke="#58a6ff" stroke-width="1.25" stroke-linecap="round" stroke-opacity="0.42">
+    <path d="M1014 108 L905 151 M1030 108 L1117 138"/>
+    <path d="M897 169 L841 217 M905 169 L926 232 M915 169 L997 205"/>
+    <path d="M1109 158 L1110 218 M1126 158 L1189 202"/>
+  </g>
+  <g stroke-width="1.25">
+    <g fill="#f74c00" fill-opacity="0.10" stroke="#f74c00" stroke-opacity="0.85">
+      <rect x="995" y="86" width="54" height="22" rx="5"/>
+      <rect x="910" y="232" width="32" height="16" rx="4"/>
+      <rect x="1174" y="202" width="30" height="16" rx="4"/>
+    </g>
+    <g fill="#58a6ff" fill-opacity="0.07" stroke="#58a6ff" stroke-opacity="0.65">
+      <rect x="884" y="151" width="42" height="18" rx="4"/>
+      <rect x="1088" y="138" width="58" height="20" rx="5"/>
+      <rect x="826" y="217" width="30" height="16" rx="4"/>
+      <rect x="984" y="205" width="26" height="16" rx="4"/>
+      <rect x="1091" y="218" width="38" height="16" rx="4"/>
+    </g>
+  </g>
+  <g fill="none" stroke-width="2" stroke-linecap="round">
+    <path d="M1009 97 H1035 M921 240 H931 M1185 210 H1193" stroke="#f74c00" stroke-opacity="0.8"/>
+    <path d="M896 160 H914 M1102 148 H1113 M1120 148 H1132 M837 225 H845 M994 213 H1000 M1103 226 H1117" stroke="#58a6ff" stroke-opacity="0.65"/>
+  </g>
+</svg>
