@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <title>Vadim Suharnikov, author of the Ferron programming language</title>
-  <desc>Banner with the name Vadim Suharnikov, the line "I make Ferron, a programming language", and "frontend, backend, whatever-end, Yerevan, Armenia". On the right, an editor window holds a five-line Ferron program that prints "hi, I'm Vadim", with that output under it.</desc>
+  <desc>Banner with the name Vadim Suharnikov, the line "I make Ferron, a programming language", and "frontend, backend, whatever-end". On the right, an editor window holds a five-line Ferron program that prints "hi, I'm Vadim", with that output under it.</desc>
   <defs>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#e8590c" stop-opacity="0.13"/>
       <stop offset="1" stop-color="#e8590c" stop-opacity="0"/>
     </radialGradient>
-    <clipPath id="frame"><rect width="1280" height="320" rx="14"/></clipPath>
-    <clipPath id="window"><rect x="744" y="40" width="456" height="240" rx="12"/></clipPath>
+    <clipPath id="frame"><rect width="880" height="300" rx="12"/></clipPath>
+    <clipPath id="window"><rect x="476" y="34" width="374" height="232" rx="12"/></clipPath>
   </defs>
   <style>
     @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
@@ -21,36 +21,36 @@
     }
   </style>
   <g clip-path="url(#frame)">
-    <rect width="1280" height="320" fill="#ffffff"/>
-    <ellipse cx="972" cy="-30" rx="560" ry="250" fill="url(#glow)"/>
-    <rect y="314" width="1280" height="6" fill="#e8590c"/>
+    <rect width="880" height="300" fill="#ffffff"/>
+    <ellipse cx="660" cy="-30" rx="460" ry="240" fill="url(#glow)"/>
+    <rect y="294" width="880" height="6" fill="#e8590c"/>
   </g>
 
-  <path class="spark" d="M88 62 l3.4 9.6 l9.6 3.4 l-9.6 3.4 l-3.4 9.6 l-3.4 -9.6 l-9.6 -3.4 l9.6 -3.4 z" fill="#e8590c"/>
-  <text x="112" y="81" fill="#bc4c00" font-size="15" letter-spacing="2.4">VADIM-SU</text>
-  <text x="78" y="150" fill="#1f2328" font-size="48" font-weight="600" letter-spacing="-1.2">Vadim Suharnikov</text>
-  <text x="80" y="194" fill="#1f2328" font-size="19">I make <tspan fill="#bc4c00" font-weight="600">Ferron</tspan>, a programming language.</text>
-  <text x="80" y="234" fill="#59636e" font-size="15">frontend · backend · whatever-end · Yerevan, Armenia</text>
+  <path class="spark" d="M50 62 l3.4 9.6 l9.6 3.4 l-9.6 3.4 l-3.4 9.6 l-3.4 -9.6 l-9.6 -3.4 l9.6 -3.4 z" fill="#e8590c"/>
+  <text x="74" y="80" fill="#bc4c00" font-size="13.5" letter-spacing="2">VADIM-SU · YEREVAN, ARMENIA</text>
+  <text x="38" y="146" fill="#1f2328" font-size="43" font-weight="600" letter-spacing="-1.2">Vadim Suharnikov</text>
+  <text x="40" y="188" fill="#1f2328" font-size="17">I make <tspan fill="#bc4c00" font-weight="600">Ferron</tspan>, a programming language.</text>
+  <text x="40" y="226" fill="#59636e" font-size="15">frontend · backend · whatever-end</text>
 
   <g clip-path="url(#window)">
-    <rect x="744" y="40" width="456" height="240" fill="#f6f8fa"/>
-    <rect x="744" y="40" width="456" height="38" fill="#eaeef2"/>
-    <rect x="744" y="236" width="456" height="44" fill="#eaeef2"/>
+    <rect x="476" y="34" width="374" height="232" fill="#f6f8fa"/>
+    <rect x="476" y="34" width="374" height="36" fill="#eaeef2"/>
+    <rect x="476" y="224" width="374" height="42" fill="#eaeef2"/>
   </g>
-  <rect x="744" y="40" width="456" height="240" rx="12" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
-  <path d="M744 78 H1200 M744 236 H1200" stroke="#d1d9e0" stroke-width="1.5"/>
-  <g fill="#afb8c1"><circle cx="766" cy="59" r="5"/><circle cx="784" cy="59" r="5"/><circle cx="802" cy="59" r="5"/></g>
-  <text x="824" y="64" fill="#59636e" font-size="13">hello.fer</text>
+  <rect x="476" y="34" width="374" height="232" rx="12" fill="none" stroke="#d1d9e0" stroke-width="1.5"/>
+  <path d="M476 70 H850 M476 224 H850" stroke="#d1d9e0" stroke-width="1.5"/>
+  <g fill="#afb8c1"><circle cx="498" cy="52" r="5"/><circle cx="516" cy="52" r="5"/><circle cx="534" cy="52" r="5"/></g>
+  <text x="556" y="57" fill="#59636e" font-size="13">hello.fer</text>
   <g font-size="15">
-    <text x="776" y="110" xml:space="preserve"><tspan fill="#cf222e">use</tspan><tspan fill="#1f2328"> std.env.</tspan><tspan fill="#953800">Env</tspan></text>
-    <text x="776" y="154" xml:space="preserve"><tspan fill="#cf222e">fn</tspan><tspan fill="#8250df"> main</tspan><tspan fill="#1f2328">(env: </tspan><tspan fill="#953800">Env</tspan><tspan fill="#1f2328">) </tspan><tspan fill="#cf222e">-&gt;</tspan><tspan fill="#953800"> Unit</tspan><tspan fill="#1f2328"> {</tspan></text>
-    <text x="776" y="176" xml:space="preserve"><tspan fill="#cf222e">  let</tspan><tspan fill="#1f2328"> who = </tspan><tspan fill="#0a3069">"Vadim"</tspan></text>
-    <text x="776" y="198" xml:space="preserve"><tspan fill="#1f2328">  env.console.</tspan><tspan fill="#8250df">print</tspan><tspan fill="#1f2328">(</tspan><tspan fill="#0a3069">"hi, I'm </tspan><tspan fill="#1f2328">{who}</tspan><tspan fill="#0a3069">"</tspan><tspan fill="#1f2328">)</tspan></text>
-    <text x="776" y="220" xml:space="preserve"><tspan fill="#1f2328">}</tspan></text>
+    <text x="502" y="104" xml:space="preserve"><tspan fill="#cf222e">use</tspan><tspan fill="#1f2328"> std.env.</tspan><tspan fill="#953800">Env</tspan></text>
+    <text x="502" y="148" xml:space="preserve"><tspan fill="#cf222e">fn</tspan><tspan fill="#8250df"> main</tspan><tspan fill="#1f2328">(env: </tspan><tspan fill="#953800">Env</tspan><tspan fill="#1f2328">) </tspan><tspan fill="#cf222e">-&gt;</tspan><tspan fill="#953800"> Unit</tspan><tspan fill="#1f2328"> {</tspan></text>
+    <text x="502" y="170" xml:space="preserve"><tspan fill="#cf222e">  let</tspan><tspan fill="#1f2328"> who = </tspan><tspan fill="#0a3069">"Vadim"</tspan></text>
+    <text x="502" y="192" xml:space="preserve"><tspan fill="#1f2328">  env.console.</tspan><tspan fill="#8250df">print</tspan><tspan fill="#1f2328">(</tspan><tspan fill="#0a3069">"hi, I'm </tspan><tspan fill="#1f2328">{who}</tspan><tspan fill="#0a3069">"</tspan><tspan fill="#1f2328">)</tspan></text>
+    <text x="502" y="214" xml:space="preserve"><tspan fill="#1f2328">}</tspan></text>
   </g>
   <g font-size="15">
-    <text x="776" y="263" fill="#bc4c00">$</text>
-    <text class="out" x="796" y="263" fill="#1a7f37">hi, I'm Vadim</text>
-    <rect class="cursor" x="920" y="250" width="9" height="17" fill="#1f2328" fill-opacity="0.75"/>
+    <text x="502" y="250" fill="#bc4c00">$</text>
+    <text class="out" x="522" y="250" fill="#1a7f37">hi, I'm Vadim</text>
+    <rect class="cursor" x="646" y="237" width="9" height="17" fill="#1f2328" fill-opacity="0.75"/>
   </g>
 </svg>
